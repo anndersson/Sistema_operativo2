@@ -1,0 +1,6 @@
+.imagen_fondo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg?fit=2560%2C1600&ssl=1");
+    background-size: cover;
+}
