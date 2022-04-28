@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root{
+    --colorbarra:#d8dceb;
+    --pestañagris:#e1e7f9;
+    --barrabuscadora:#fdfdfd;
+    --barracolorazul:#4f91ce;
+}
+
+
+
+
