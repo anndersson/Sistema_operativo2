@@ -20,17 +20,21 @@
 <body>
 <section class="imagen_fondo">
 
+
     <div class="contenedor">
     <div class="linea">
         <ul class="navegador">
             <li>
-            <img class="imagen" id="ico_menu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Windows_10x_Icon.png/1200px-Windows_10x_Icon.png">
+            <img class="imagen activar2" id="ico_menu" type="button" onclick="activar();" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Windows_10x_Icon.png/1200px-Windows_10x_Icon.png">
             </li>
             <li>
             <img class="lupa" src="https://svgsilh.com/png-1024/189254.png">
             </li>
             <li>
             <img class="Archivos" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/File-Explorer-fluent-icon.png">
+            </li>
+            <li>
+            <img class="spotify" id="ico_musica" type="button" onclick="activar_2();" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png">
             </li>
             <li class="hora_2">
                 <p class="hora">08:40 a.m.</p>
@@ -39,19 +43,42 @@
     
     </div>
     </div>
-    
-    <div class="menu" id="menu">
+    <div class="menu1" id="menu">
+    <div class="menu" >
 
-    <div class = "contenedor2">
-        
+    <div class = "contenedor2" type="button" onclick="ocultar();">
+            
+
             <input class = "barra_busqueda" type="text" placeholder="&#128270;   Type here to Search">
             
             <img class="Apagado" src="https://img.utdstc.com/icon/269/317/269317938f2051996645a78d97d23583c0e3e2c96afc39625a6985bb7ee0808a:200">
-        
+
+            <div class="office">
+            <img class="publisher" src="https://cdn.icon-icons.com/icons2/1156/PNG/512/1486565577-microsoft-office-publisher_81556.png">
+            <img class="word" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_word_macos_bigsur_icon_189948.png">
+            <img src="https://cdn.icon-icons.com/icons2/1156/PNG/512/1486565571-microsoft-office-excel_81549.png">
+            <img src="https://static.acer.com/up/Resource/Acer/Software/Office365/20200427/ms365-icon-powerpoint.png">
+            <img src="https://img.utdstc.com/icon/8f1/fe5/8f1fe55c42213402475d348e499bfeac28fbaa9cebb00fcfafe28ce5f4b4d562:200">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/08/Microsoft_Store_app_icon.png">
+            <img src="https://www.intecap.edu.gt/cti/media/jub/images/default/Photoshop_CC_icon.png">
+           </div>
+
+           
+
         </div>  
         </div>
+        </div>
     
-    
+        <div class="cuadro_spotify" > 
+        <div class="linea_spotify">
+        <div class="caja">
+        <div class="caja_2 activar_2" id="spotify">
+        <img type="button" onclick="cerrar();" src="https://imag.malavida.com/mvimgbig/download-fs/spotify-5641-2.jpg">
+        </div>
+
+        </div>
+        </div>
+        </div>
 
 
 </section>

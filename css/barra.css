@@ -3,17 +3,21 @@
    display: flex;
    flex-direction: row;
    justify-content: center;
+   z-index: 2;
 } 
 
 .imagen{
     width: 3rem;
     height: 3rem;
     margin-top: 0.5rem;   
+    display: none;
 }
 
+/*
 .lupa:hover {
     background-color: aqua;
 }
+*/
 
 .contenedor .navegador{
     width: 70rem;
@@ -49,12 +53,9 @@
 }
 
 .hora{
-<<<<<<< HEAD
     margin-left: 60rem;
-=======
     margin-left: 155rem;
     margin-top: 80.5rem;
->>>>>>> 30c03d26bb92c0c3b2f5e95dc0340a5869b54920
     font-size: 1.8rem;
     position: absolute;
     margin-top: 1rem;
@@ -63,10 +64,9 @@
 .hora_2{
     z-index: 2;
 }
-<<<<<<< HEAD
+
 
 .menu{
-    
     width: 100%;
     height: 100%;
     position: absolute;
@@ -74,7 +74,10 @@
   justify-content: center;
   align-items: center;
 
-   
+}
+
+.menu1{
+    display: none !important;
 }
 
 .barra_busqueda{
@@ -103,9 +106,93 @@
     top: 10rem;
 }
 
-.activar {
-    display: block;
-  }
 
-=======
->>>>>>> 30c03d26bb92c0c3b2f5e95dc0340a5869b54920
+
+.spotify{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.activar_2{
+    display: none;
+}
+
+/*
+.cuadro_spotify{
+    background-color: #181818;
+    width: 80rem;
+    height: 60rem;
+    position: absolute;
+    top: 8rem;
+    left: 75rem;
+}
+
+.linea_spotify{
+    background-color: #2e2e2e;
+    width: 80rem;
+    height: 7rem;
+    margin-top: 55rem;
+    position: absolute;
+}
+
+.caja{
+    background-color: #000000;
+    width: 17rem;
+    height: 55rem;
+    margin-top: -55rem;
+}
+*/
+.caja_2{
+    width: 90rem;
+    height: 55rem;
+    position: absolute;
+    left: 8rem;
+}
+.caja_2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen_2{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;   
+    display: none;
+}
+
+.cerrar{
+    display: none !important;
+}
+
+.activar2{
+    display: flex !important;
+}
+
+.desactivar{
+    display: none;
+}
+
+.equis{
+    width: 2.5rem;
+    position: absolute;
+    margin-top: 55rem;
+    right: 5rem;
+}
+
+
+.office{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    height: 15%;
+   
+}
+
+.office img{
+    width: 5rem;
+    height: 5rem;
+    margin: 3rem 2.5rem 0rem 2.5rem;
+}
